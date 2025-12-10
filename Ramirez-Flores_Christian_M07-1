@@ -5,6 +5,6 @@ future_year = 2050
 future_age = currentAge + (future_year - currentYear)
 
 if __name__ == "__main__":
-    print(f"Current age: {currentAge}")
-    print(f"Current year: {currentYear}")
-    print(f"In {future_year} you will be {future_age} years old.")
+    print("Current age:", currentAge)
+    print("Current year:", currentYear)
+    print("In", future_year, "you will be", future_age, "years old.")
