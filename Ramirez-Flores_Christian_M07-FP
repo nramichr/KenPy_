@@ -1,7 +1,18 @@
-# Program Name: Ramirez-Flores_Christian_Final_Project
+# Program Name: Ramirez-Flores_Christian_Final_Project - Trainers/enrollees
 # Author: Christian Ramirez-Flores 
+# Version: 5.0
 # This program asks for 15 trainers and how many new members they enrolled.
 # It saves the info to a file and counts the categories.
+#
+#   # Variables:    
+# c1: counts trainers with 0-5 new enrollments - Integer
+# c2: counts trainers with 6-10 new enrollments - Integer
+# c3: counts trainers with 11-15 new enrollments - Integer
+# f: returns to "Crunchy_Trainers_Records.txt" used to write to the file - File Object  
+# i: loop counter, counts and asks user for 15 inputs - Integer
+# name: stores trainer last name input - String
+# num: stores new enrollments input - Integer
+#
 
 c1 = 0
 c2 = 0 
